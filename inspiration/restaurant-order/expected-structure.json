@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Copy this file into each inspo example directory and fill in the expected components/layout for that example.",
+  "name": "restaurant-order",
+  "description": "Menu page with order side bar",
+  "components": {
+    "HeadingField": { "minCount": 2 },
+    "CardLayout": { "minCount": 6 },
+    "TabsField": { "count": 1, "props": { "tabs": 5 } },
+    "ButtonWidget": { "minCount": 7 },
+    "TagField": { "minCount": 4 },
+    "ReadOnlyGrid": { "count": 0 },
+    "ImageField": { "minCount": 8 }
+  },
+  "layout": {
+    "hasSidebar": false,
+    "hasHeader": false,
+    "hasTabs": true,
+    "hasGrid": false
+  },
+  "sailMappings": {
+    "$comment": "Map SAIL component names to expected Sailwind equivalents. Only relevant for S8/S9.",
+    "a!cardLayout": "CardLayout",
+    "a!tabsField": "TabsField",
+    "a!headingField": "HeadingField",
+    "a!sectionLayout": "HeadingField (for section layouts with label parameter",
+    "a!stampField": "StampField",
+    "a!richTextDisplayField": "RichTextDisplayField or TextItem",
+    "a!richTextIcon": "Icon (Lucide equivalent)",
+    "a!imageField": "ImageField with style=AVATAR",
+    "a!buttonWidget": "ButtonWidget",
+    "a!buttonArrayLayout": "ButtonArrayLayout"
+  }
+}

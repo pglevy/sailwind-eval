@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Copy this file into each inspo example directory and fill in the expected components/layout for that example.",
+  "name": "customer-account-management",
+  "description": "Page for auto insurance customer to manage their account information",
+  "components": {
+    "HeadingField": { "minCount": 4 },
+    "CardLayout": { "minCount": 3 },
+    "TabsField": { "count": 1, "props": { "tabs": 3 } },
+    "ButtonWidget": { "minCount": 0 },
+    "TagField": { "minCount": 1 },
+    "ReadOnlyGrid": { "count": 0 },
+    "ImageField": { "minCount": 0 },
+    "StampField": { "minCount": 3 }
+  },
+  "layout": {
+    "hasSidebar": false,
+    "hasHeader": true,
+    "hasTabs": true,
+    "hasGrid": false
+  },
+  "sailMappings": {
+    "$comment": "Map SAIL component names to expected Sailwind equivalents. Only relevant for S8/S9.",
+    "a!cardLayout": "CardLayout",
+    "a!headerContentLayout": "div with header section",
+    "a!tabsField": "TabsField",
+    "a!headingField": "HeadingField",
+    "a!sectionLayout": "HeadingField (for section layouts with label parameter",
+    "a!stampField": "StampField"
+  }
+}

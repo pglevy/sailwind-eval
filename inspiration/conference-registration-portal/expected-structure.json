@@ -1,0 +1,34 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$comment": "Copy this file into each inspo example directory and fill in the expected components/layout for that example.",
+  "name": "conference-registration-portal",
+  "description": "Registration page for basic personal details and topic interest",
+  "components": {
+    "HeadingField": { "minCount": 2 },
+    "CardLayout": { "minCount": 1 },
+    "TabsField": { "count": 0, "props": { "tabs": 0 } },
+    "ButtonWidget": { "minCount": 1 },
+    "TagField": { "minCount": 0 },
+    "ReadOnlyGrid": { "count": 0 },
+    "ImageField": { "minCount": 1 },
+    "TextField": { "count": 5 },
+    "DropdownField": { "count": 1 },
+    "CheckboxField": { "minCount": 1 }
+  },
+  "layout": {
+    "hasSidebar": false,
+    "hasHeader": false,
+    "hasTabs": false,
+    "hasGrid": false
+  },
+  "sailMappings": {
+    "$comment": "Map SAIL component names to expected Sailwind equivalents. Only relevant for S8/S9.",
+    "a!cardLayout": "CardLayout",
+    "a!headerContentLayout": "div with header section",
+    "a!buttonWidget": "ButtonWidget",
+    "a!ImageField": "ImageField",
+    "a!textField": "TextField",
+    "a!dropdownField": "DropdownField",
+    "a!checkboxField": "CheckboxField"
+  }
+}
