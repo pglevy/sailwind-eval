@@ -1,0 +1,11 @@
+node scripts/prepare-eval-env.js ~/Downloads/2026-05-06-b049c38/cam --scenario inspiration/customer-account-management --template /Users/philip.levy/Documents/GitHub/sailwind-starter
+
+node scripts/prepare-eval-env.js ~/Downloads/2026-05-06-b049c38/crp --scenario inspiration/conference-registration-portal --template /Users/philip.levy/Documents/GitHub/sailwind-starter
+
+node scripts/prepare-eval-env.js ~/Downloads/2026-05-06-b049c38/iqr --scenario inspiration/insurance-quote-review --template /Users/philip.levy/Documents/GitHub/sailwind-starter
+
+node scripts/prepare-eval-env.js ~/Downloads/2026-05-06-b049c38/mhs --scenario inspiration/my-health-site --template /Users/philip.levy/Documents/GitHub/sailwind-starter
+
+node scripts/prepare-eval-env.js ~/Downloads/2026-05-06-b049c38/ro --scenario inspiration/restaurant-order --template /Users/philip.levy/Documents/GitHub/sailwind-starter
+
+node scripts/prepare-eval-env.js ~/Downloads/2026-05-06-b049c38/acm --scenario app-spec/aurora-case-management --template /Users/philip.levy/Documents/GitHub/sailwind-starter
